@@ -1,9 +1,12 @@
+import React from 'react'
+import MyFormChallenge from './components/MyFormChallenge'
 import './App.css'
 
-function App() {
+const App = () => {
   return (
-    <>
-    </>
+    <div id='root'>
+      <MyFormChallenge />
+    </div>
   )
 }
 
